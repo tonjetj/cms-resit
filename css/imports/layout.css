@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box; 
+  }
+
+body {
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* Fonts */
+h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+/* Header/Blog Title */
+header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+
+
+/* Main */
+main {
+    width: 100%; 
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+}
+
+.results {
+    width: 100%; 
+}
+
+/* Footer */
+
+footer {
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 50px; 
+}
+
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  a:hover {
+    font-style: italic;
+  }
