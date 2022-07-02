@@ -1,5 +1,7 @@
 const leftContainer = document.querySelector(".results");
-const url = "http://www.jenssen.one/wp-json/wc/store/products";
+const url =
+  "https://noroffcors.herokuapp.com/" +
+  "http://www.jenssen.one/wp-json/wc/store/products";
 console.log(url);
 
 async function fetchPosts() {
